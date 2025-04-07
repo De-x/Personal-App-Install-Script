@@ -48,6 +48,11 @@ $wingetApps = @(
     "Discord.Discord"            # Discord (Chat App)
     "HydraLauncher.Hydra"        # Hydra (Game Launcher)
     "Zen-Team.Zen-Browser"       # Zen Browser
+    "Fedora.FedoraMediaWriter"   # Fedora Media Writer for USBs
+    "Ventoy.Ventoy"              # Bootloader for ISOs
+    "Playnite.Playinte"          # Universal Game Launcher with support for emulators
+    "PCSX2Team.PCSX2"            # Excellent PS2 Emulator
+    "
     # Add other winget app IDs here if needed
 )
 
