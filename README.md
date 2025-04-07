@@ -11,6 +11,8 @@ Apps not found in winget or without known silent installers are noted for manual
 Date:   2025-04-06
 Requires: Windows 10 version 1809+ or Windows 11, winget, Administrator privileges.
 #>
+- Have to manually install [mpv]([url](https://mpv.io/installation/))
+- Have to manually install [Davinci Resolve]([url](https://www.blackmagicdesign.com/products/davinciresolve))
 
 # Installs several packages I use often:
 1. Chrome
@@ -27,3 +29,5 @@ Requires: Windows 10 version 1809+ or Windows 11, winget, Administrator privileg
 12. Hydra Launcher
 13. Zen Broswer
 14. WSL Ubuntu
+15. Fedora Media Writer
+16. Ventoy
