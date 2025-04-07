@@ -1,18 +1,18 @@
-SYNOPSIS
+# SYNOPSIS
 Installs a predefined list of applications on Windows using winget and other specific commands.
 
-DESCRIPTION
+# DESCRIPTION
 This script automates the installation of several applications.
 It uses the winget package manager for most apps and specific commands for others like WSL.
 Requires Administrator privileges to run.
 Apps not found in winget or without known silent installers are noted for manual installation.
 
-NOTES
+# NOTES
 Date:   2025-04-06
 Requires: Windows 10 version 1809+ or Windows 11, winget, Administrator privileges.
 #>
 
-Installs several packages I use often:
+# Installs several packages I use often:
 1. Chrome
 2. Nanazip (7zip fork)
 3. Steam
