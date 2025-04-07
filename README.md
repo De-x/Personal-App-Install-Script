@@ -1,20 +1,25 @@
 # SYNOPSIS
-Installs a predefined list of applications on Windows using winget and other specific commands.
+Installs Scoop package manager and a predefined list of applications on Windows using Scoop, Winget, and native commands. Skips apps that are already installed.
 
 # DESCRIPTION
-This script automates the installation of several applications.
-It uses the winget package manager for most apps and specific commands for others like WSL.
-Requires Administrator privileges to run.
-Apps not found in winget or without known silent installers are noted for manual installation.
+This script automates the installation of the Scoop package manager and several applications.
+It checks if apps are already installed via Scoop (globally) or Winget before attempting installation.
+It uses Scoop (globally) for specific apps, Winget for many common apps, and specific commands for others (like WSL).
+It automatically adds required Scoop buckets (e.g., 'games', 'extras').
+Requires Administrator privileges to run for Winget and WSL.
 
 # NOTES
-Date:   2025-04-06
-Requires: Windows 10 version 1809+ or Windows 11, winget, Administrator privileges.
-#>
-- Have to manually install [mpv](https://mpv.io/installation/)
-- Have to manually install [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve)
+Requires: Windows 10 version 1809+ or Windows 11, winget, Administrator privileges, scoop
 
-# Installs several packages I use often:
+**Needs this Powershell command**
+
+`Set-ExecutionPolicy Bypass -Scope Process -Force`
+
+Then you need to go into Downloads directory (or wherever you download it) and run the script with
+
+`./installapps.ps1`
+
+# Installs these packages:
 1. Chrome
 2. Nanazip (7zip fork)
 3. Steam
@@ -31,3 +36,12 @@ Requires: Windows 10 version 1809+ or Windows 11, winget, Administrator privileg
 14. WSL Ubuntu
 15. Fedora Media Writer
 16. Ventoy
+17. rpcs3
+18. mpv
+19. ryujinx
+20. dolphin
+21. Playnite
+22. PCSX2
+23. Prism Launcher
+
+Still doesn't install DaVinci Resolve or Citron so those have to be downloaded manually
