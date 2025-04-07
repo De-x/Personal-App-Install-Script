@@ -11,8 +11,8 @@ Apps not found in winget or without known silent installers are noted for manual
 Date:   2025-04-06
 Requires: Windows 10 version 1809+ or Windows 11, winget, Administrator privileges.
 #>
-- Have to manually install [mpv]([url](https://mpv.io/installation/))
-- Have to manually install [Davinci Resolve]([url](https://www.blackmagicdesign.com/products/davinciresolve))
+- Have to manually install [mpv](https://mpv.io/installation/)
+- Have to manually install [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve)
 
 # Installs several packages I use often:
 1. Chrome
