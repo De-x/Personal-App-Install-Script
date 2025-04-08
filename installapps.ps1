@@ -176,6 +176,7 @@ $wingetApps = @(
     "Playnite.Playnite"             # Universal Game Launcher
     "PCSX2Team.PCSX2"               # Excellent PS2 Emulator
     "PrismLauncher.PrismLauncher"   # Launcher for Minecraft, mainly modded
+    "WinDirStat.WinDirStat"         # Overview of every file in windows
     # Add other winget app IDs here if needed
 )
 
