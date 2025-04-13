@@ -177,6 +177,7 @@ $wingetApps = @(
     "PCSX2Team.PCSX2"               # Excellent PS2 Emulator
     "PrismLauncher.PrismLauncher"   # Launcher for Minecraft, mainly modded
     "WinDirStat.WinDirStat"         # Overview of every file in windows
+    "xemu-project.xemu"             # OG XBOX Emulator
     # Add other winget app IDs here if needed
 )
 
