@@ -44,5 +44,6 @@ Then you need to go into Downloads directory (or wherever you download it) and r
 22. PCSX2
 23. Prism Launcher
 24. WinDirStat
+25. XEMU
 
 Still doesn't install DaVinci Resolve or Citron so those have to be downloaded manually
