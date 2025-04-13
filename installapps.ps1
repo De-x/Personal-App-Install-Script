@@ -178,6 +178,7 @@ $wingetApps = @(
     "PrismLauncher.PrismLauncher"   # Launcher for Minecraft, mainly modded
     "WinDirStat.WinDirStat"         # Overview of every file in windows
     "xemu-project.xemu"             # OG XBOX Emulator
+    "BlastApps.FluentSearch"        # Search similar to spotlight
     # Add other winget app IDs here if needed
 )
 
