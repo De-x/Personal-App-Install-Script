@@ -9,41 +9,12 @@ It automatically adds required Scoop buckets (e.g., 'games', 'extras').
 Requires Administrator privileges to run for Winget and WSL.
 
 # NOTES
-Requires: Windows 10 version 1809+ or Windows 11, winget, Administrator privileges, scoop
+Requires: Windows 10 version 1809+ or Windows 11, winget, Administrator privileges, scoop (will install)
 
 **Needs this Powershell command**
 
 `Set-ExecutionPolicy Bypass -Scope Process -Force`
 
-Then you need to go into Downloads directory (or wherever you download it) and run the script with
+Then you need to go into Downloads directory and run the script with
 
 `./installapps.ps1`
-
-# Installs these packages:
-1. Chrome
-2. Nanazip (7zip fork)
-3. Steam
-4. Everything Search
-5. Powertoys
-6. Notion
-7. VS Code
-8. Epic Games Store
-9. Stremio
-10. Git
-11. Discord
-12. Hydra Launcher
-13. Zen Broswer
-14. WSL Ubuntu
-15. Fedora Media Writer
-16. Ventoy
-17. rpcs3
-18. mpv
-19. ryujinx
-20. dolphin
-21. Playnite
-22. PCSX2
-23. Prism Launcher
-24. WinDirStat
-25. XEMU
-
-Still doesn't install DaVinci Resolve or Citron so those have to be downloaded manually
