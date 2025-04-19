@@ -163,7 +163,6 @@ $wingetApps = @(
     "Valve.Steam"                   # Steam (Game Platform)
     "voidtools.Everything"          # Everything Search
     "Microsoft.PowerToys"           # Microsoft PowerToys
-    "Notion.Notion"                 # Notion (Productivity App)
     "Microsoft.VisualStudioCode"    # Visual Studio Code (Code Editor)
     "EpicGames.EpicGamesLauncher"   # Epic Games Launcher
     "Stremio.Stremio"               # Stremio (Media Center)
